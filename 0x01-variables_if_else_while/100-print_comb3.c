@@ -18,7 +18,7 @@ while (c < 10)
 if (d != c && d < c)
 {
 putchar('0' + d);
-putchar('o' + c);
+putchar('0' + c);
 {
 putchar(',');
 putchar(' ');

@@ -6,15 +6,13 @@
  */
 int _abs(int c)
 
-
 {
 if (c < 0)
 {
-return (c);
-}
-else
-{
-return (c);
+int abs_val;
+
+abs_val = c * -1;
+return (abs_val);
 }
 _putchar('\n');
 }

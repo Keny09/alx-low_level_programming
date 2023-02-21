@@ -22,4 +22,4 @@ int add(int, int);
 
 void ptint_to_98(int n);
 
-void print_times-table(int n);_
+void print_times_table(int n);

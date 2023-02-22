@@ -3,7 +3,7 @@
  * main - Prints even fibonacci numbers less than 4000000
  * Return: Always 0 (sucess)
  */
-int main(void);
+int main(void)
 
 {
 int i = 0;

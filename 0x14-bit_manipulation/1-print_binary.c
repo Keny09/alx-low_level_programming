@@ -7,12 +7,12 @@ void print_binary(unsigned long int n)
 
 {
 int i, count = 0;
-unsigned long int present;
+unsigned long int n;
 
 for (i = 63; i >= 0; i--)
 {
-present = n >> i;
-if (present & 1)
+n = n >> i;
+if (n & 1)
 {
 _putchar('1');
 count++;

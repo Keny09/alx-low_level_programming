@@ -14,16 +14,12 @@ for (i = 63; i >= 0; i--)
 present = n >> i;
 if (present & 1)
 {
-putchar('1');
+_putchar('1');
 count++;
 }
 else if (count)
-{
-putchar('0');
-}
+_putchar('0');
 }
 if (!count)
-{
-putchar('0');
-}
+_putchar('0');
 }

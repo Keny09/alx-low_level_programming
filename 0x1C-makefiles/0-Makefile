@@ -1,26 +1,2 @@
-# Makefile for the 'school' executable
-
-# The name of the executable
-EXECUTABLE = school
-
-# The C compiler to use
-CC = gcc
-
-# The CFLAGS to use
-CFLAGS = -Wall -std=c11
-
-# The LDFLAGS to use
-LDFLAGS = 
-
-# The dependencies of the executable
-DEPS = 
-
-# The rule to build the executable
-all: $(EXECUTABLE)
-
-$(EXECUTABLE): $(DEPS)
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^
-
-# The rule to clean up the build
-clean:
-	rm -f $(EXECUTABLE)
+all: main.c school.c
+	gcc main.c school.c -o school
